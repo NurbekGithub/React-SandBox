@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
+import Headr from './components/Headr';
 
-class App extends Component {
+
+export default class App extends Component {
   render() {
     return (
       <div className="App">
-
+        <Headr />
       </div>
     );
   }
 }
 
-export default App;
