@@ -1,0 +1,374 @@
+{
+  "body": [
+  {
+  "footer": "Declarative views make your code more predictable and easier to debug.",
+  "id": 1,
+  "text": "React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.",
+  "title": "Declarative"
+  },
+  {
+  "footer": "Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep state out of the DOM.",
+  "id": 2,
+  "text": "Build encapsulated components that manage their own state, then compose them to make complex UIs.",
+  "title": "Component-Based"
+  },
+  {
+  "footer": "React can also render on the server using Node and power mobile apps using React Native.",
+  "id": 3,
+  "text": "We don't make assumptions about the rest of your technology stack, so you can develop new features in React without rewriting existing code.",
+  "title": "Learn Once, Write Anywhere"
+  }
+  ],
+  "gridData": [
+  {
+  "id": 0,
+  "name": "Food - 0",
+  "caloricity": 466,
+  "price": 80.02417314100644,
+  "hasFallenInPrice": true
+  },
+  {
+  "id": 1,
+  "name": "Food - 1",
+  "caloricity": 599,
+  "price": 63.22945268808945,
+  "hasFallenInPrice": false
+  },
+  {
+  "id": 2,
+  "name": "Food - 2",
+  "caloricity": 400,
+  "price": 55.874811928897884,
+  "hasFallenInPrice": true
+  },
+  {
+  "id": 3,
+  "name": "Food - 3",
+  "caloricity": 796,
+  "price": 83.31824365838408,
+  "hasFallenInPrice": true
+  },
+  {
+  "id": 4,
+  "name": "Food - 4",
+  "caloricity": 98,
+  "price": 76.08925367783345,
+  "hasFallenInPrice": false
+  },
+  {
+  "id": 5,
+  "name": "Food - 5",
+  "caloricity": 977,
+  "price": 12.320998393652282,
+  "hasFallenInPrice": false
+  },
+  {
+  "id": 6,
+  "name": "Food - 6",
+  "caloricity": 450,
+  "price": 16.76011644646369,
+  "hasFallenInPrice": true
+  },
+  {
+  "id": 7,
+  "name": "Food - 7",
+  "caloricity": 584,
+  "price": 54.32897670509343,
+  "hasFallenInPrice": false
+  },
+  {
+  "id": 8,
+  "name": "Food - 8",
+  "caloricity": 516,
+  "price": 31.651056809485777,
+  "hasFallenInPrice": true
+  },
+  {
+  "id": 9,
+  "name": "Food - 9",
+  "caloricity": 625,
+  "price": 25.996012207425025,
+  "hasFallenInPrice": false
+  },
+  {
+  "id": 10,
+  "name": "Food - 10",
+  "caloricity": 573,
+  "price": 36.34828620325807,
+  "hasFallenInPrice": true
+  },
+  {
+  "id": 11,
+  "name": "Food - 11",
+  "caloricity": 274,
+  "price": 7.840155933654769,
+  "hasFallenInPrice": true
+  },
+  {
+  "id": 12,
+  "name": "Food - 12",
+  "caloricity": 360,
+  "price": 58.40943709684533,
+  "hasFallenInPrice": true
+  },
+  {
+  "id": 13,
+  "name": "Food - 13",
+  "caloricity": 393,
+  "price": 85.80097065192743,
+  "hasFallenInPrice": false
+  },
+  {
+  "id": 14,
+  "name": "Food - 14",
+  "caloricity": 872,
+  "price": 96.31434883979036,
+  "hasFallenInPrice": false
+  },
+  {
+  "id": 15,
+  "name": "Food - 15",
+  "caloricity": 860,
+  "price": 3.2933116413792485,
+  "hasFallenInPrice": true
+  },
+  {
+  "id": 16,
+  "name": "Food - 16",
+  "caloricity": 804,
+  "price": 6.420458594257584,
+  "hasFallenInPrice": true
+  },
+  {
+  "id": 17,
+  "name": "Food - 17",
+  "caloricity": 657,
+  "price": 63.118116297757034,
+  "hasFallenInPrice": false
+  },
+  {
+  "id": 18,
+  "name": "Food - 18",
+  "caloricity": 848,
+  "price": 25.94424042291662,
+  "hasFallenInPrice": false
+  },
+  {
+  "id": 19,
+  "name": "Food - 19",
+  "caloricity": 429,
+  "price": 38.265737056517665,
+  "hasFallenInPrice": false
+  },
+  {
+  "id": 20,
+  "name": "Food - 20",
+  "caloricity": 413,
+  "price": 12.420908989447355,
+  "hasFallenInPrice": false
+  },
+  {
+  "id": 21,
+  "name": "Food - 21",
+  "caloricity": 752,
+  "price": 72.53807295016806,
+  "hasFallenInPrice": false
+  },
+  {
+  "id": 22,
+  "name": "Food - 22",
+  "caloricity": 826,
+  "price": 24.51637543293933,
+  "hasFallenInPrice": true
+  },
+  {
+  "id": 23,
+  "name": "Food - 23",
+  "caloricity": 242,
+  "price": 57.36950439323634,
+  "hasFallenInPrice": true
+  },
+  {
+  "id": 24,
+  "name": "Food - 24",
+  "caloricity": 403,
+  "price": 16.044617778603644,
+  "hasFallenInPrice": true
+  },
+  {
+  "id": 25,
+  "name": "Food - 25",
+  "caloricity": 984,
+  "price": 46.27903658356012,
+  "hasFallenInPrice": false
+  },
+  {
+  "id": 26,
+  "name": "Food - 26",
+  "caloricity": 235,
+  "price": 62.33398641237221,
+  "hasFallenInPrice": true
+  },
+  {
+  "id": 27,
+  "name": "Food - 27",
+  "caloricity": 789,
+  "price": 28.759244882133807,
+  "hasFallenInPrice": true
+  },
+  {
+  "id": 28,
+  "name": "Food - 28",
+  "caloricity": 598,
+  "price": 75.62915959418618,
+  "hasFallenInPrice": false
+  },
+  {
+  "id": 29,
+  "name": "Food - 29",
+  "caloricity": 700,
+  "price": 1.5122181804319235,
+  "hasFallenInPrice": true
+  },
+  {
+  "id": 30,
+  "name": "Food - 30",
+  "caloricity": 236,
+  "price": 1.1400377788271743,
+  "hasFallenInPrice": false
+  },
+  {
+  "id": 31,
+  "name": "Food - 31",
+  "caloricity": 738,
+  "price": 96.87596766118261,
+  "hasFallenInPrice": false
+  },
+  {
+  "id": 32,
+  "name": "Food - 32",
+  "caloricity": 701,
+  "price": 66.97172596284369,
+  "hasFallenInPrice": true
+  },
+  {
+  "id": 33,
+  "name": "Food - 33",
+  "caloricity": 453,
+  "price": 10.832243567096967,
+  "hasFallenInPrice": true
+  },
+  {
+  "id": 34,
+  "name": "Food - 34",
+  "caloricity": 483,
+  "price": 5.994166610589369,
+  "hasFallenInPrice": false
+  },
+  {
+  "id": 35,
+  "name": "Food - 35",
+  "caloricity": 749,
+  "price": 0.6206676802589683,
+  "hasFallenInPrice": false
+  },
+  {
+  "id": 36,
+  "name": "Food - 36",
+  "caloricity": 963,
+  "price": 84.42807786841556,
+  "hasFallenInPrice": false
+  },
+  {
+  "id": 37,
+  "name": "Food - 37",
+  "caloricity": 146,
+  "price": 33.865024062977625,
+  "hasFallenInPrice": false
+  },
+  {
+  "id": 38,
+  "name": "Food - 38",
+  "caloricity": 668,
+  "price": 86.41380884246063,
+  "hasFallenInPrice": true
+  },
+  {
+  "id": 39,
+  "name": "Food - 39",
+  "caloricity": 55,
+  "price": 86.09285374429135,
+  "hasFallenInPrice": false
+  },
+  {
+  "id": 40,
+  "name": "Food - 40",
+  "caloricity": 867,
+  "price": 84.15865183844176,
+  "hasFallenInPrice": false
+  },
+  {
+  "id": 41,
+  "name": "Food - 41",
+  "caloricity": 285,
+  "price": 25.134574292736644,
+  "hasFallenInPrice": true
+  },
+  {
+  "id": 42,
+  "name": "Food - 42",
+  "caloricity": 946,
+  "price": 4.679244506738756,
+  "hasFallenInPrice": true
+  },
+  {
+  "id": 43,
+  "name": "Food - 43",
+  "caloricity": 486,
+  "price": 42.34551880364468,
+  "hasFallenInPrice": true
+  },
+  {
+  "id": 44,
+  "name": "Food - 44",
+  "caloricity": 69,
+  "price": 14.111071941004095,
+  "hasFallenInPrice": false
+  },
+  {
+  "id": 45,
+  "name": "Food - 45",
+  "caloricity": 17,
+  "price": 99.81415527414956,
+  "hasFallenInPrice": false
+  },
+  {
+  "id": 46,
+  "name": "Food - 46",
+  "caloricity": 427,
+  "price": 23.67504291333319,
+  "hasFallenInPrice": false
+  },
+  {
+  "id": 47,
+  "name": "Food - 47",
+  "caloricity": 210,
+  "price": 47.29951284856324,
+  "hasFallenInPrice": false
+  },
+  {
+  "id": 48,
+  "name": "Food - 48",
+  "caloricity": 595,
+  "price": 64.48843115520991,
+  "hasFallenInPrice": false
+  },
+  {
+  "id": 49,
+  "name": "Food - 49",
+  "caloricity": 540,
+  "price": 14.865976790629098,
+  "hasFallenInPrice": true
+  }
+  ]
+  }
