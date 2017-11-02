@@ -1,0 +1,23 @@
+.marketing-row {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+}
+
+.css-1053yfl {
+    display: inline-block;
+    font-size: 16px;
+    background-color: #61dafb;
+    color: #000000;
+    padding: 10px 25px;
+    white-space: nowrap;
+    transition: background-color 0.2s ease-out;
+    -webkit-transition: background-color 0.2s ease-out;
+    -moz-transition: background-color 0.2s ease-out;
+}

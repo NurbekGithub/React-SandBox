@@ -1,0 +1,48 @@
+.container-headr {
+    padding-top: 95px;
+    padding-bottom: 85px;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 180px;
+    background: #282c34;
+    background-image: url(https://d33wubrfki0l68.cloudfront.net/baf3e4b6e2dd4f4793cd6e2b4e1d498183d8adb4/85dd1/large-logo.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 100px;
+    background-size: 40% auto;
+}
+.container {
+    position: absolute;
+    left: 0;
+    top: 50;
+    width: 100%;
+    text-align: center;
+}
+
+.css-159p4b7 {
+    color: #61dafb;
+    text-align: center;
+    margin: 0;
+    font-size: 45px;
+    letter-spacing: 0.01em;
+}
+
+.css-1s44ra{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 0.01em;
+    font-weight: 200;
+    color: #ffffff;
+}
+
+.css-13foh4g {
+    display: inline-block;
+    font-size: 16px;
+    color: #61dafb;
+    transition: color 0.2s ease-out;
+    -webkit-transition: color 0.2s ease-out;
+    -moz-transition: color 0.2s ease-out;
+}
+
+
