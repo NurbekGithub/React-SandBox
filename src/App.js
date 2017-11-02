@@ -7,6 +7,10 @@ import Table from './components/Table';
 import FormSubmit from './components/FormSubmit';
 import { Switch, Route } from 'react-router-dom';
 
+import Footer from './components/Footer';
+import SuperFooter from './components/SuperFooter';
+import HomeSection from './containers/HomeSection';
+
 
 export default class App extends Component {
   render() {
@@ -18,6 +22,11 @@ export default class App extends Component {
           <Route path='/FormSubmit' component={FormSubmit}/>
         </Switch>
         <Body />
+
+        <HomeSection />
+        <SuperFooter />
+        <Footer />
+
       </div>
     );
   }

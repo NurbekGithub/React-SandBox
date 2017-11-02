@@ -1,6 +1,7 @@
 import React from 'react';
 
 // import Example from '../components/HomeSection/Example'
+import promise from '../data/data';
 
 export default class HomeSection extends React.Component {
   constructor(props) {
@@ -33,7 +34,16 @@ export default class HomeSection extends React.Component {
     )
   }
 
+  componentDidMount() {
+    promise
+      .then( res => res.data )
+        .then( data => this.setState({ tableData: data.gridData })) 
+          .catch( err => console.log(err));
+    }
+
   render() {
+
+    console.log('re-rendered');
 
     const { tableData } = this.state;
 
