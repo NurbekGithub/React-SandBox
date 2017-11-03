@@ -15,6 +15,8 @@ import ContentCopy from 'material-ui/svg-icons/content/content-copy';
 import Download from 'material-ui/svg-icons/file/file-download';
 import { Link } from 'react-router-dom'
 import './Headr.css'
+import StartButton from './StartButton';
+import TutorialLink from './TutorialLink';
 
 export default class Headr extends Component {
 
@@ -66,17 +68,9 @@ export default class Headr extends Component {
           <div className="container" >
             <h1 class="css-159p4b7">React</h1>
             <p class="css-1s44ra">A JavaScript library for building user interfaces</p>
-            <div class="css-19bbi3m css-1ve3nxt">
-              <div class="css-px8qel">
-                <a class="css-1053yfl" href="/docs/hello-world.html">
-                  Get Started
-                </a>
-              </div>
-              <div class="css-px8qel">
-                <a class="css-13foh4g" href="/tutorial/tutorial.html">
-                  Take the Tutorial
-                <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4.53657 8.69699" class="css-b7q1rs"><path d="M.18254,8.697a.18149.18149,0,0,1-.12886-.31034L4.09723,4.34126.05369.29954a.18149.18149,0,0,1,.2559-.2559L4.4838,4.21785a.18149.18149,0,0,1,0,.2559L.30958,8.648A.18149.18149,0,0,1,.18254,8.697Z" fill="currentColor"></path></svg></a>
-              </div>
+            <div class="css-15fohsg">
+              <StartButton />
+              <TutorialLink />
             </div>
           </div>
         </div>

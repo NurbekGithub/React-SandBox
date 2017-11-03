@@ -118,12 +118,17 @@ footer .brand .brand__image img {
   padding: 50px 0;
 }
 
-.HomeSection table {
-  width: 80%;
-  margin: 0 auto;
-  border-collapse: collapse;
-  max-height: 80vh;
+.HomeSection__table {
+  max-height: 70vh;
   overflow-y: auto;
+  margin: 0 auto;
+  width: 80%;
+} 
+
+.HomeSection table {
+  width: 100%;
+  border-collapse: collapse;
+  position: relative;
 }
 
 .HomeSection td, th {
@@ -138,6 +143,8 @@ footer .brand .brand__image img {
 
 .HomeSection thead th {
   font-weight: 400;
+  height: 30px;
+  line-height: 30px;
 }
 
 .HomeSection tbody tr:nth-child(odd) {
@@ -148,5 +155,21 @@ footer .brand .brand__image img {
   background-color: #ddd;
 }
 
+.HomeSection__filter {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  background-color: #eee;
+ }
+
+ .HomeSection__filter #caloricityFilter {
+   width: 60px;
+ }
+
+ .HomeSection__filter #hasFallenInPriceFilter {
+   vertical-align: text-top;
+ }
 
 

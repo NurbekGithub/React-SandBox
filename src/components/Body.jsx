@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Marketing from './Marketing';
 import './Body.css'
+import promise from '../data/data';
 
 export default class Body extends Component {
 
@@ -16,14 +16,32 @@ export default class Body extends Component {
         {
           id: '2',
           title: 'asfsdf'
+        },
+        {
+          id: '3',
+          title: '34swefdf'
         }
       ]
     }
   }
 
   renderData = (item, idx) => {
-    return <Marketing key={idx} item={item} />
+    return (
+      <div className="marketing-col" key={idx} >
+        <h3>{ item.title }</h3>
+        <p>{ item.text }</p>
+        <p>{ item.footer }</p>
+      </div>
+    ) 
   }
+
+
+  componentDidMount() {
+    promise
+      .then( res => res.data )
+        .then( data => this.setState({ data: data.body })) 
+          .catch( err => console.log(err));
+    }
 
   render() {
 
@@ -31,7 +49,7 @@ export default class Body extends Component {
 
     return (
       <div className="Body">
-        <div class="marketing-row">
+        <div class="marketing-row container">
           {data.map(this.renderData)}
         </div>
       </div>

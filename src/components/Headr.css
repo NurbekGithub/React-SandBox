@@ -1,7 +1,6 @@
 .container-headr {
     padding-top: 95px;
     padding-bottom: 85px;
-    max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
     height: 180px;
@@ -11,13 +10,6 @@
     background-position: 100% 100px;
     background-size: 40% auto;
 }
-/* .container {
-    position: absolute;
-    left: 0;
-    top: 50;
-    width: 100%;
-    text-align: center;
-} */
 
 .css-159p4b7 {
     color: #61dafb;
@@ -45,4 +37,7 @@
     -moz-transition: color 0.2s ease-out;
 }
 
-
+.css-15fohsg {
+    display: flex;
+    justify-content: center;
+}

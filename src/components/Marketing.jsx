@@ -5,10 +5,10 @@ const Marketing = (props) => {
     const { item } = props;
 
     return (
-        <div id="" className="marketing-col">
-            <h3 className="title"> { item.title } </h3>
-            <p className="text"> </p>
-            <p className="footer"> </p>
+        <div className="marketing-col">
+            <h3> { item.title } </h3>
+            <p> { item.text } </p>
+            <p> { item.footer } </p>
         </div>
     );
 }
